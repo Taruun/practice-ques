@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int y; cin >> y;
-    for (int i = y + 1; i < 10000; i++){
+    for (int i = y + 1; i < 10000; i++){ // 100000 is simply infinite loop 
         int freq[10];
         for (int j = 0; j < 10; j++){
             freq[j] = 0;
@@ -39,6 +39,7 @@ using namespace std;
 int main() {    
     int year; cin >> year;
     
+    // while(true) is an infinite loop till it breaks
     while(true) {
         year++;
         int a = year / 1000;
