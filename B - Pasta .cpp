@@ -14,7 +14,7 @@ int main() {
         bool flag = false;
         for(int j = 0; j < n; j++){
             if(a[j] == b[i]){
-                a[j] -= 1;
+                a[j] = -1;
                 flag = true;
                 break;
             }
@@ -30,8 +30,6 @@ int main() {
     return 0;
 }
 
-#include <iostream>
-using namespace std;
 
 // WITHOUT ANS
 
@@ -46,7 +44,7 @@ using namespace std;
 //         bool flag = false;
 //         for(int j = 0; j < n; j++){
 //             if(a[j] == b[i]){
-//                 a[j] -= 1;
+//                 a[j] = -1;
 //                 flag = true;
 //                 break;
 //             }
