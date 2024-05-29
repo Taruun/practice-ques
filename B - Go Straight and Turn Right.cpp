@@ -5,7 +5,7 @@ int main() {
     int n; cin >> n;
     string s; cin >> s;
     char dir = 'r';
-    int x =y = 0;
+    int x = 0, y = 0;
     
     for (int i = 0; i < n; i++){
         if(s[i] == 'S'){
