@@ -4,6 +4,7 @@
 // Next, we add the sum and mark that index as True.
 // Finally, we initialize ans and loop through the array, incrementing ans if we encounter True.
 
+
 #include <iostream>
 using namespace std;
 bool count[30000001];
