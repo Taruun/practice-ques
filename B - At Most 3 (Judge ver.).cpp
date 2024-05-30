@@ -1,7 +1,8 @@
-// Max sum we can get 3 and Ai is 10^6, so 3 * 10^6 = 3000000 so we go till 3 * 10^6 +1 = i.e. 300000001 
-// Then we initialise them with all false 
-// Then we add summa nd make that index true 
-// make ans and loop through array and if we get true make ans++
+// We can get a maximum sum of 3, and Ai is 10^6, so 3 * 10^6 = 3000000. 
+// Therefore, we iterate up to 3 * 10^6 + 1, i.e., 3000001.
+// Then we initialize them all as False.
+// Next, we add the sum and mark that index as True.
+// Finally, we initialize ans and loop through the array, incrementing ans if we encounter True.
 
 #include <iostream>
 using namespace std;
