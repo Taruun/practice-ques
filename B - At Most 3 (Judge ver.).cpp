@@ -16,7 +16,7 @@ int main() {
     for(int i = 0; i < n; i++) cin >> nums[i];
     
     for(int i = 0; i < 30000001; i++) count[i] = false;
-    // bool count[w + 1] = {false};
+    // bool count[w + 1] =  {false};
     
     for(int i = 0; i < n; i++) count[nums[i]] = true;
     
