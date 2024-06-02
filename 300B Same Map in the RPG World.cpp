@@ -11,12 +11,10 @@ using namespace std;
 // H: The number of horizontal rows in the grids.
 // W: The number of vertical columns in the grids.
 
-// Online C++ compiler to run C++ program online
-
 int main() {
     ios::sync_with_stdio(false);
-    cin.tie(0);
-    cout.tie(0);
+    cin.tie(NULL);
+    cout.tie(NULL);
     
     int h,w;cin >> h >> w;
     int a[h][w], b[h][w];

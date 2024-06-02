@@ -18,7 +18,7 @@ int main() {
         
         int flag = 0;
         for (int i = 0; i < 10; i++){
-            if(flag == 1){
+            if(freq[i] > 1){
                 flag++;
                 break;
             }
