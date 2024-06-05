@@ -1,6 +1,11 @@
 // Take a number chek if it's divisible
 // If it's divisble check if it's divisor is luck number or not i.e. 4 or 7
 
+// TC: We're going n/10, n/100, n/1000 so We can generalize this as n/10^k, where 'k' represents the number of divisions we perform which will be atleast 1 number
+// So 1/10^k = 1 --> n = 10^k 
+// log(base 10)^N = k
+// N(lo)
+
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;

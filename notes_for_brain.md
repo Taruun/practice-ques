@@ -1,3 +1,5 @@
+// If anything requires % or divisible or n/2 then it's logn TC
+
 if theres
 X % M = H1
 Y % M = H2
