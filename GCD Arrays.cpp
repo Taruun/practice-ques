@@ -9,6 +9,7 @@
 // l=3 r=5 [3 4 5] = 5 - 3 + 1 = 3
 
 // 2. Check if total number is odd or even
+
 // If total number are even 
 // to get odd no = total_number/2
 // 3 6 = [3 4 5 6] = 4/3 = 2 odd no
