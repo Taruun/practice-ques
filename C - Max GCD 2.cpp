@@ -12,6 +12,7 @@
 
 // Check if there are 2 numbers that are divisible by x
 
+
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
