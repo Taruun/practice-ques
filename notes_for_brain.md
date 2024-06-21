@@ -14,3 +14,16 @@ So, to make the probability smaller,
 2. And make the M prime number
    A.Because large prime are sparse(deff between numbers) on larger numbers
    B. They don't actually follow patterns WOW!!
+
+# Algorithm Time Complexity Table
+
+| Constraints | Time Complexity                 |
+| ----------- | ------------------------------- |
+| 1e18        | O(logN) (Binary Search)         |
+| 1e8         | O(N) (Linear Search) (Maps etc) |
+| 1e4         | O(N^2) 10^4 \* 10^4 = 10^8      |
+| 1e6         | O(NlogN)                        |
+| 500         | O(N^3)                          |
+| 85-90       | O(N^4)                          |
+| 20          | O(2^N) Recursive solution       |
+| 11          | N! Can be Factorial solution    |
